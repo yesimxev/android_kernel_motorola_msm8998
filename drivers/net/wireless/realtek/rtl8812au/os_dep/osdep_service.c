@@ -3071,6 +3071,13 @@ inline BOOLEAN is_eol(char c)
 * Return	TRUE if c is represent for space
 *		FALSE otherwise.
 */
+inline BOOLEAN is_space(char c)
+{
+        if (c == '\r' || c == ' ')
+                return _TRUE;
+        else
+                return _FALSE;
+}
 
 /**
 * IsHexDigit -
