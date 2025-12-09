@@ -1,4 +1,4 @@
-]#
+#
 # Makefile for the linux kernel.
 #
 
